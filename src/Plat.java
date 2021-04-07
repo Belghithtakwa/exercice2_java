@@ -10,12 +10,12 @@ public class Plat {
         return this.nom;
     }
     public ArrayList <Ingredient> getIngredients(){
-            return Ingredients;
-
+            return this.Ingredients;
     }
     public void ajouteIngredient(Ingredient ingred){
         this.Ingredients.add(ingred);
     }
+
 
     @Override
     public boolean equals(Object o) {
