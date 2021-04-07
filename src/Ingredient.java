@@ -14,8 +14,9 @@ public class Ingredient {
 
     public boolean equals(Object object) {
         if (this == object) return true;
-        Ingredient that = (Ingredient) object;
-        return Objects.equals(nom_aliment, that.nom_aliment) && Objects.equals(etat, that.etat);
+        Ingredient ingre = (Ingredient) object;
+        return Objects.equals(nom_aliment, ingre.nom_aliment) && Objects.equals(etat, ingre.etat);
     }
 }
+
 

@@ -17,11 +17,12 @@ public class Plat {
     }
 
 
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        Plat plat = (Plat) o;
-        return Ingredients.equals(plat.Ingredients);
+    public boolean equals(Object object) {
+        if (this == object) return true;
+        Plat newplat = (Plat) object;
+        return Ingredients.equals(newplat.Ingredients);
     }
+
 
 
     public static void main(String[] args){
