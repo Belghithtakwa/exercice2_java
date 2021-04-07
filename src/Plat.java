@@ -17,7 +17,6 @@ public class Plat {
     }
 
 
-    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         Plat plat = (Plat) o;

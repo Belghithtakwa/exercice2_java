@@ -8,5 +8,4 @@ public class IngredientCuire extends Ingredient{
         this.etat = "cuit";
     }
 
-
 }

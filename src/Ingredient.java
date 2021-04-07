@@ -5,17 +5,16 @@ public class Ingredient {
     int quantite;
     String unite;
 
-    Ingredient(String n ,String e, int q,String unite){
+    Ingredient(String n, String e, int q, String unite) {
         this.nom_aliment = n;
         this.etat = e;
         this.quantite = q;
-        this.unite= unite;
+        this.unite = unite;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        Ingredient that = (Ingredient) o;
+    public boolean equals(Object object) {
+        if (this == object) return true;
+        Ingredient that = (Ingredient) object;
         return Objects.equals(nom_aliment, that.nom_aliment) && Objects.equals(etat, that.etat);
     }
 }
